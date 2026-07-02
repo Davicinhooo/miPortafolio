@@ -41,7 +41,7 @@
 
             <!-- Pie de hero -->
             <div class="mt-16 pt-8 border-t border-stone-800/80 flex items-center justify-center gap-6 text-stone-500 text-sm font-mono">
-                <span>Java</span><span>•</span><span>Python & AI</span><span>•</span><span>SQL</span><span>•</span><span>Docker</span>
+                <span>Java</span><span>•</span><span>SQL</span><span>•</span><span>Docker</span>
             </div>
 
         </div>

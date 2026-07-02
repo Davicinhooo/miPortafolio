@@ -17,8 +17,16 @@ export default defineConfig({
         tailwindcss(),
     ],
     server: {
-        watch: {
-            ignored: ['**/storage/framework/views/**'],
+        host: '0.0.0.0',
+        port: 5173,
+        strictPort: true,
+        // 1. Permite que el navegador acepte los archivos externos
+        cors: true,
+        // 2. Obliga a Laravel a escribir la ruta exacta y segura en tu HTML
+        origin: 'https://miportafolio.ddev.site:5173',
+        hmr: {
+            host: 'miportafolio.ddev.site',
+            protocol: 'wss',
         },
     },
 });
