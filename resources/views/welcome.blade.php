@@ -74,8 +74,10 @@
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Cloud SQL</span>
             </div>
         </div>
-        <div>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Ver Repositorio</a>
+        <div class= "flex gap-4">
+            <a href="https://github.com/Davicinhooo/WebHospital" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://webhospital-zyez.onrender.com" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
+            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
         </div>
     </article>
 
@@ -85,7 +87,7 @@
             <h3 class="text-xl font-bold text-emerald-400 mb-1">Sistema de Ventas MiniMarket</h3>
             <p class="text-sm font-medium text-stone-500 mb-4">Proyecto Grupal</p>
             <p class="text-stone-300 leading-relaxed">
-                En este trabajo colaborativo sobre un sistema de ventas para un MiniMarket, me encargue de la base de datos usando un sistema de roles para que dependiendo de quien inicie sesion tenga su respectivo panel de trabajo, por otro lado el subirla a CleverCloud, el apartado del frontend y el empaquetado del programa .jar a un .exe.
+                En este trabajo colaborativo sobre un sistema de ventas para un MiniMarket, me encargue de la logica en las secciones producto, categoria, el login y el panel de gestion, por otro el conectar el sistema a una base de datos en la nube en este caso la de CleverCloud, el apartado del frontend en dichas secciones y el empaquetado del programa para asi obtener el .exe.
             </p>
             <div class="flex flex-wrap gap-2 mt-6">
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Java (NetBeans)</span>
@@ -94,8 +96,10 @@
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">JPackage</span>
             </div>
         </div>
-        <div>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Ver Repositorio</a>
+        <div class= "flex gap-4">
+            <a href="https://github.com/Davicinhooo/SistemaDeVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Davicinhooo/SistemaDeVentas/releases/download/v1.0.0/Minimarket-1.0.0.exe" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
+            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
         </div>
     </article>
 
@@ -114,8 +118,10 @@
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">JPackage</span>
             </div>
         </div>
-        <div>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Ver Repositorio</a>
+        <div class= "flex gap-4">
+            <a href="https://github.com/Davicinhooo/GestorVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Davicinhooo/GestorVentas/releases/download/v1.0.0/SistemaVentas-1.0.0.exe     " class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
+            <a href="https://github.com/Davicinhooo/GestorVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
         </div>
     </article>
 
@@ -134,8 +140,10 @@
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Cloud SQL</span>
             </div>
         </div>
-        <div>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Ver Repositorio</a>
+        <div class= "flex gap-4">
+            <a href="https://github.com/HellomynameisJJ/appLoginMatricula-Jostin" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://innovatech-vb4m.onrender.com" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
+            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
         </div>
     </article>
 
