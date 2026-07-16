@@ -77,7 +77,7 @@
         <div class= "flex gap-4">
             <a href="https://github.com/Davicinhooo/WebHospital" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://webhospital-zyez.onrender.com" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
+            <button onclick="abrirModalVideo('{{ asset('videos/WebHospital.mp4') }}')" class="text-orange-500 hover:text-orange-400 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -90,16 +90,17 @@
                 En este trabajo colaborativo sobre un sistema de ventas para un MiniMarket, me encargue de la logica en las secciones producto, categoria, el login y el panel de gestion, por otro el conectar el sistema a una base de datos en la nube en este caso la de CleverCloud, el apartado del frontend en dichas secciones y el empaquetado del programa para asi obtener el .exe.
             </p>
             <div class="flex flex-wrap gap-2 mt-6">
-                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Java (NetBeans)</span>
+                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Java</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">XAMMP</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Cloud SQL</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">JPackage</span>
+                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">HeidiSQL</span>
             </div>
         </div>
         <div class= "flex gap-4">
             <a href="https://github.com/Davicinhooo/SistemaDeVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://github.com/Davicinhooo/SistemaDeVentas/releases/download/v1.0.0/Minimarket-1.0.0.exe" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
+            <button onclick="abrirModalVideo('{{ asset('videos/MiniMarket.mp4') }}')" class="text-orange-500 hover:text-orange-400 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -112,10 +113,11 @@
                 Siendo este mi primer proyecto de programacion, fue la creacion de un gestor de ventas o sistema de ventas, conteniendo una base de datos simple pero efectiva para este caso, aparte de subirlo a una nube tambien se le creo su respectivo .exe para asi facilitar la prueba de este mismo.
             </p>
             <div class="flex flex-wrap gap-2 mt-6">
-                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Java (NetBeans)</span>
+                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Java</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">XAMMP</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">Cloud SQL</span>
                 <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">JPackage</span>
+                <span class="bg-stone-700/50 text-stone-200 px-3 py-1 rounded-full text-xs font-medium">HeidiSQL</span>
             </div>
         </div>
         <div class= "flex gap-4">
@@ -149,6 +151,21 @@
 
 </div>
     </section>
+
+    <!-- Modal Global de Video (Único para toda la web) -->
+<div id="modalGlobal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/80 backdrop-blur-sm transition-opacity">
+    <div class="relative w-11/12 max-w-4xl bg-neutral-900 p-2 rounded-xl border border-neutral-700 shadow-2xl">
+        
+        <button onclick="cerrarModalVideo()" class="absolute -top-4 -right-4 bg-red-600 hover:bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shadow-lg">
+            X
+        </button>
+
+        <video id="reproductorGlobal" class="w-full rounded-lg" controls>
+            <!-- El src se inyectará aquí usando JavaScript -->
+        </video>
+    </div>
+</div>
+</div>
 
 </body>
 </html>
