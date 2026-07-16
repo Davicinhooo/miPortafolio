@@ -77,7 +77,7 @@
         <div class= "flex gap-4">
             <a href="https://github.com/Davicinhooo/WebHospital" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://webhospital-zyez.onrender.com" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
-            <button onclick="abrirModalVideo('{{ asset('videos/WebHospital.mp4') }}')" class="text-orange-500 hover:text-orange-400 transition-colors">Demostración</button>
+            <button onclick="abrirModalVideo('{{ asset('videos/WebHospital.mp4') }}')" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -100,7 +100,7 @@
         <div class= "flex gap-4">
             <a href="https://github.com/Davicinhooo/SistemaDeVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://github.com/Davicinhooo/SistemaDeVentas/releases/download/v1.0.0/Minimarket-1.0.0.exe" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
-            <button onclick="abrirModalVideo('{{ asset('videos/MiniMarket.mp4') }}')" class="text-orange-500 hover:text-orange-400 transition-colors">Demostración</button>
+            <button onclick="abrirModalVideo('{{ asset('videos/MiniMarket.mp4') }}')" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -123,7 +123,7 @@
         <div class= "flex gap-4">
             <a href="https://github.com/Davicinhooo/GestorVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://github.com/Davicinhooo/GestorVentas/releases/download/v1.0.0/SistemaVentas-1.0.0.exe     " class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
-            <a href="https://github.com/Davicinhooo/GestorVentas" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
+            <button onclick="abrirModalVideo('{{ asset('videos/GestorVentas.mp4') }}')" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -145,7 +145,7 @@
         <div class= "flex gap-4">
             <a href="https://github.com/HellomynameisJJ/appLoginMatricula-Jostin" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://innovatech-vb4m.onrender.com" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
-            <a href="#" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</a>
+            <button onclick="abrirModalVideo('{{ asset('videos/PaginaInnovatec.mp4') }}')" class="inline-block text-stone-300 hover:text-white border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
 
@@ -168,4 +168,4 @@
 </div>
 
 </body>
-</html>
+</html> 
