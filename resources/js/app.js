@@ -1,5 +1,3 @@
-// resources/js/app.js
-
 /**
  * Abre el modal global y carga el video específico del proyecto
  */
@@ -32,4 +30,19 @@ window.cerrarModalVideo = function() {
 
     // 3. Limpiamos la ruta del video para liberar memoria del navegador
     reproductor.src = ''; 
+};
+
+// Función para alternar entre modo claro y oscuro
+window.toggleTheme = function() {
+    const htmlTag = document.documentElement;
+
+    if (htmlTag.classList.contains('dark')) {
+        // Pasamos a modo claro
+        htmlTag.classList.remove('dark');
+        localStorage.theme = 'light';
+    } else {
+        // Pasamos a modo oscuro
+        htmlTag.classList.add('dark');
+        localStorage.theme = 'dark';
+    }
 };
