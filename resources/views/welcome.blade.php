@@ -69,16 +69,72 @@
                 </a>
             </div>
 
-            <!-- Pie de hero -->
-            <div class="mt-16 pt-8 border-t border-stone-800/80 flex items-center justify-center gap-6 text-stone-500 text-sm font-mono">
-                <span>Java</span><span>•</span><span>SQL</span><span>•</span><span>Docker</span><span>•</span><span>PHP</span>
-            </div>
+            <!-- Sección de Habilidades -->
+<section class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-bold text-center text-stone-800 dark:text-white mb-10">
+        Mi Stack <span class="text-sky-500">Tecnológico</span>
+    </h3>
 
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Tarjeta Backend -->
+        <div class="bg-white dark:bg-stone-800/40 p-6 rounded-2xl border border-stone-200 dark:border-stone-700/50 hover:border-orange-500 transition-colors">
+            <h4 class="text-lg font-semibold text-black dark:text-stone-300 mb-4">Backend & Datos</h4>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">Java</span>
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">PHP</span>
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">Laravel</span>
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">SQL</span>
+            </div>
         </div>
+
+        <!-- Tarjeta Frontend -->
+        <div class="bg-white dark:bg-stone-800/40 p-6 rounded-2xl border border-stone-200 dark:border-stone-700/50 hover:border-yellow-500 transition-colors">
+            <h4 class="text-lg font-semibold text-black dark:text-stone-300 mb-4">Frontend</h4>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">JavaScript</span>
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">Tailwind CSS</span>
+            </div>
+        </div>
+
+        <!-- Tarjeta Herramientas -->
+        <div class="bg-white dark:bg-stone-800/40 p-6 rounded-2xl border border-stone-200 dark:border-stone-700/50 hover:border-orange-500 transition-colors">
+            <h4 class="text-lg font-semibold text-black dark:text-stone-300 mb-4">Herramientas</h4>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">Metodologías Ágiles</span>
+                <span class="px-3 py-1 text-sm bg-stone-200 dark:bg-stone-900 rounded-full dark:text-stone-300 text-black">Git / GitHub</span>
+            </div>
+        </div>
+
+    </div>
     </section>
 
+        </div>
+
+    </section>
+
+    <!-- Cinta de Texto Animada (Marquee) -->
+<div class="w-full overflow-hidden bg-stone-50/50 dark:bg-stone-900/30 py-6 my-16 border-y border-stone-200 dark:border-stone-800">
+    <!-- Contenedor que se mueve -->
+    <div class="animacion-cinta gap-12 whitespace-nowrap text-sm font-bold tracking-[0.2em] uppercase text-stone-400 dark:text-stone-500">
+        
+        <!-- Grupo 1 -->
+        <span>✦ Ingeniería de Software</span>
+        <span>✦ Desarrollo Backend</span>
+        <span>✦ Diseño de Bases de Datos</span>
+        <span>✦ Metodologías Ágiles</span>
+        
+        <!-- Grupo 2 (Duplicado exacto para crear la ilusión de bucle infinito) -->
+        <span>✦ Ingeniería de Software</span>
+        <span>✦ Desarrollo Backend</span>
+        <span>✦ Diseño de Bases de Datos</span>
+        <span>✦ Metodologías Ágiles</span>
+        
+    </div>
+</div>
+
     <!-- SECCIÓN DE PROYECTOS -->
-    <section id="proyectos" class="min-h-screen py-24 px-6">
+    <section id="proyectos" class="min-h-screen py-24 px-4">
         
         <h2 class="text-3xl md:text-4xl font-bold text-center dark:text-stone-100 text-black text: mb-12">
             Mis Proyectos
@@ -88,8 +144,8 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
     
     <!-- TARJETA 1: Clínica (Individual) -->
-    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 transition-colors">
-        <div class="mb-6">
+    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 proyecto-izq opacity-0 -translate-x-32 transition-all duration-1000 ease-out">
+        <div class= "mb-6">
             <h3 class="text-xl font-bold dark:text-yellow-400 text-yellow-400 mb-1">Pagina Web - Clinica</h3>
             <p class="text-sm font-semibold dark:text-stone-300 text-black mb-4">Proyecto Individual</p>
             <p class="dark:text-stone-300 text-black leading-relaxed">
@@ -111,7 +167,7 @@
     </article>
 
     <!-- TARJETA 2: Mini Market (Grupal) -->
-    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 transition-colors">
+    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 proyecto-der opacity-0 translate-x-32 transition-all duration-1000 ease-out">
         <div class="mb-6">
             <h3 class="text-xl font-bold dark:text-yellow-400 text-yellow-400 mb-1">Sistema de Ventas MiniMarket</h3>
             <p class="text-sm font-semibold dark:text-stone-300 text-black mb-4">Proyecto Grupal</p>
@@ -134,7 +190,7 @@
     </article>
 
     <!-- TARJETA 3: Gestor de ventas (Individual) -->
-    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 transition-colors">
+    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 proyecto-izq opacity-0 -translate-x-32 transition-all duration-1000 ease-out">
         <div class="mb-6">
             <h3 class="text-xl font-bold dark:text-yellow-400 text-yellow-400 mb-1">Gestor de ventas</h3>
             <p class="text-sm font-medium dark:text-stone-300 text-black mb-4">Proyecto Individual</p>
@@ -157,7 +213,7 @@
     </article>
 
     <!-- TARJETA 4: Pagina escolar (Grupal) -->
-    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 transition-colors">
+    <article class="bg-white dark:bg-stone-800/40 p-8 rounded-2xl border dark:border-stone-700/50 border-stone-200 hover:border-stone-600 proyecto-der opacity-0 translate-x-32 transition-all duration-1000 ease-out">
         <div class="mb-6">
             <h3 class="text-xl font-bold dark:text-yellow-400 text-yellow-400 mb-1">Pagina Escolar - Innovatech</h3>
             <p class="text-sm font-medium dark:text-stone-300 text-black mb-4">Proyecto Grupal</p>

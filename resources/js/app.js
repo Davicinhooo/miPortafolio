@@ -46,3 +46,22 @@ window.toggleTheme = function() {
         localStorage.theme = 'dark';
     }
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Aparece suavemente
+                entry.target.classList.add('proyecto-visible');
+            } else {
+                // Se vuelve a ocultar suavemente si subes el scroll
+                entry.target.classList.remove('proyecto-visible');
+            }
+        });
+    }, {
+        threshold: 0.15 
+    });
+
+    const proyectos = document.querySelectorAll('.proyecto-izq, .proyecto-der');
+    proyectos.forEach((el) => observer.observe(el));
+});
