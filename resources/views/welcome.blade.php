@@ -68,8 +68,83 @@
                     Conversemos
                 </a>
             </div>
+        </section>
+        
 
-            <!-- Sección de Habilidades -->
+<section id="trayectoria" class="py-20 px-4 max-w-4xl mx-auto">
+  <h2 class="text-4xl font-bold text-white mb-12 text-center">
+    Mi <span class="text-cyan-400">Trayectoria</span>
+  </h2>
+
+  <!-- Contenedor principal de la línea de tiempo -->
+  <div class="relative border-l border-gray-700 ml-4 md:ml-6">
+    
+    <!-- Item 1: Actualidad -->
+    <div class="mb-12 ml-8">
+      <!-- El punto en la línea (Cian) -->
+      <span class="absolute flex items-center justify-center w-4 h-4 bg-cyan-400 rounded-full -left-2 ring-4 ring-[#1a1a1a]"></span>
+      
+      <h3 class="flex items-center mb-1 text-xl font-bold text-white">
+        Ingeniería de Software con Inteligencia Artificial
+      </h3>
+      <time class="block mb-2 text-sm font-medium text-cyan-400">SENATI | Actualidad</time>
+      <p class="mb-4 text-base font-normal text-gray-400 leading-relaxed">
+        Formación integral enfocada en el ciclo completo de desarrollo de software, diseño de bases de datos relacionales y la futura integración de modelos de inteligencia artificial para optimizar procesos.
+      </p>
+    </div>
+
+    <!-- Item 2: Proyecto Destacado / Logro -->
+    <div class="mb-12 ml-8">
+      <!-- El punto en la línea (Gris/Naranja dependiendo de tu gusto) -->
+      <span class="absolute flex items-center justify-center w-4 h-4 bg-gray-600 rounded-full -left-2 ring-4 ring-[#1a1a1a]"></span>
+      
+      <h3 class="mb-1 text-xl font-bold text-white">
+        Desarrollo de Sistemas Backend & Bases de Datos
+      </h3>
+      <time class="block mb-2 text-sm font-medium text-gray-500">Proyectos Prácticos</time>
+      <p class="mb-4 text-base font-normal text-gray-400 leading-relaxed">
+        Creación y despliegue de sistemas de gestión (ventas, matrículas escolares, sistemas clínicos) implementando arquitectura MVC, operaciones CRUD y alojamiento en la nube (Cloud SQL, Clever Cloud).
+      </p>
+    </div>
+
+    <!-- Item 3: Inicios (Ejemplo) -->
+    <div class="ml-8">
+      <span class="absolute flex items-center justify-center w-4 h-4 bg-gray-600 rounded-full -left-2 ring-4 ring-[#1a1a1a]"></span>
+      
+      <h3 class="mb-1 text-xl font-bold text-white">
+        Inmersión en la Programación
+      </h3>
+      <time class="block mb-2 text-sm font-medium text-gray-500">Fundamentos</time>
+      <p class="text-base font-normal text-gray-400 leading-relaxed">
+        Inicio de la ruta de aprendizaje dominando la lógica de programación y lenguajes estructurados, sentando las bases para el desarrollo web y de escritorio.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Cinta de Texto Animada (Marquee) -->
+<div class="w-full overflow-hidden bg-stone-50/50 dark:bg-stone-900/30 py-6 my-16 border-y border-stone-200 dark:border-stone-800">
+    <!-- Contenedor que se mueve -->
+    <div class="animacion-cinta gap-12 whitespace-nowrap text-sm font-bold tracking-[0.2em] uppercase text-stone-400 dark:text-stone-500">
+        
+        <!-- Grupo 1 -->
+        <span>✦ Ingeniería de Software</span>
+        <span>✦ Desarrollo Backend</span>
+        <span>✦ Diseño de Bases de Datos</span>
+        <span>✦ Metodologías Ágiles</span>
+        <span>✦ Desarrollo Frontend</span>
+        
+        <!-- Grupo 2 (Duplicado exacto para crear la ilusión de bucle infinito) -->
+        <span>✦ Ingeniería de Software</span>
+        <span>✦ Desarrollo Backend</span>
+        <span>✦ Diseño de Bases de Datos</span>
+        <span>✦ Metodologías Ágiles</span>
+        <span>✦ Desarrollo Frontend</span>
+    </div>
+</div>
+
+                <!-- Sección de Habilidades -->
 <section class="max-w-4xl mx-auto px-4 py-16">
     <h3 class="text-2xl font-bold text-center text-stone-800 dark:text-white mb-10">
         Mi Stack <span class="text-sky-500">Tecnológico</span>
@@ -113,26 +188,6 @@
 
     </section>
 
-    <!-- Cinta de Texto Animada (Marquee) -->
-<div class="w-full overflow-hidden bg-stone-50/50 dark:bg-stone-900/30 py-6 my-16 border-y border-stone-200 dark:border-stone-800">
-    <!-- Contenedor que se mueve -->
-    <div class="animacion-cinta gap-12 whitespace-nowrap text-sm font-bold tracking-[0.2em] uppercase text-stone-400 dark:text-stone-500">
-        
-        <!-- Grupo 1 -->
-        <span>✦ Ingeniería de Software</span>
-        <span>✦ Desarrollo Backend</span>
-        <span>✦ Diseño de Bases de Datos</span>
-        <span>✦ Metodologías Ágiles</span>
-        
-        <!-- Grupo 2 (Duplicado exacto para crear la ilusión de bucle infinito) -->
-        <span>✦ Ingeniería de Software</span>
-        <span>✦ Desarrollo Backend</span>
-        <span>✦ Diseño de Bases de Datos</span>
-        <span>✦ Metodologías Ágiles</span>
-        
-    </div>
-</div>
-
     <!-- SECCIÓN DE PROYECTOS -->
     <section id="proyectos" class="min-h-screen py-24 px-4">
         
@@ -160,7 +215,7 @@
             </div>
         </div>
         <div class= "flex gap-5">
-            <a href="https://github.com/Davicinhooo/WebHospital" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Codeby-Davi/WebHospital" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://webhospital-zyez.onrender.com" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Página</a>
             <button onclick="abrirModalVideo('{{ asset('videos/WebHospital.mp4') }}')" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:yellow-500 hover:text-yellow-500 border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
@@ -183,8 +238,8 @@
             </div>
         </div>
         <div class= "flex gap-5">
-            <a href="https://github.com/Davicinhooo/SistemaDeVentas" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
-            <a href="https://github.com/Davicinhooo/SistemaDeVentas/releases/download/v1.0.0/Minimarket-1.0.0.exe" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
+            <a href="https://github.com/Codeby-Davi/SistemaDeVentas" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Codeby-Davi/SistemaDeVentas/releases/download/v1.0.0/Minimarket-1.0.0.exe" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
             <button onclick="abrirModalVideo('{{ asset('videos/MiniMarket.mp4') }}')" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-yellow-500 hover:text-yellow-500 border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
@@ -206,8 +261,8 @@
             </div>
         </div>
         <div class= "flex gap-5">
-            <a href="https://github.com/Davicinhooo/GestorVentas" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
-            <a href="https://github.com/Davicinhooo/GestorVentas/releases/download/v1.0.0/SistemaVentas-1.0.0.exe" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
+            <a href="https://github.com/Codeby-Davi/GestorVentas" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Codeby-Davi/GestorVentas/releases/download/v1.0.0/SistemaVentas-1.0.0.exe" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors">Descargar Instalador</a>
             <button onclick="abrirModalVideo('{{ asset('videos/GestorVentas.mp4') }}')" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-yellow-500 hover:text-yellow-500 border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
     </article>
@@ -229,7 +284,7 @@
             </div>
         </div>
         <div class= "flex gap-5">
-            <a href="https://github.com/HellomynameisJJ/appLoginMatricula-Jostin" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            <a href="https://github.com/Codeby-Davi/INNOVATEC-SistemaMatricula" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-white hover:text-stone-900 border-b border-orange-500 pb-0.5 transition-colors" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
             <a href="https://innovatech-vb4m.onrender.com" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-green-500 hover:text-green-800 border-b border-orange-500 pb-0.5 transition-colors">Ver Página</a>
             <button onclick="abrirModalVideo('{{ asset('videos/PaginaInnovatec.mp4') }}')" class="inline-block dark:text-stone-300 text-stone-500 dark:hover:text-yellow-500 hover:text-yellow-500 border-b border-orange-500 pb-0.5 transition-colors">Demostración</button>
         </div>
@@ -237,6 +292,32 @@
 
 </div>
     </section>
+
+
+    <!-- Pon esto justo debajo del cierre de tu sección de proyectos -->
+<section id="contacto" class="py-20 px-4 max-w-3xl mx-auto text-center">
+  <h2 class="text-4xl font-bold text-white mb-6">¿Iniciamos un <span class="text-cyan-400">proyecto?</span></h2>
+  <p class="text-gray-400 mb-10 text-lg">Déjame un mensaje y me pondré en contacto contigo lo más pronto posible.</p>
+
+  <!-- Formulario -->
+  <form action="TU_LOGICA_AQUI" method="POST" class="flex flex-col gap-6 text-left">
+    <div class="flex flex-col md:flex-row gap-6">
+      <input type="text" name="nombre" placeholder="Tu Nombre" required
+             class="w-full bg-[#2a2a2a] text-white border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition-colors">
+      <input type="email" name="correo" placeholder="Tu Correo" required
+             class="w-full bg-[#2a2a2a] text-white border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition-colors">
+    </div>
+    
+    <textarea name="mensaje" rows="4" placeholder="¿En qué te puedo ayudar?" required
+              class="w-full bg-[#2a2a2a] text-white border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-cyan-400 transition-colors"></textarea>
+    
+    <button type="submit" 
+            class="bg-orange-500 hover:bg-orange-600 text-gray-900 font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(249,115,22,0.3)] hover:-translate-y-1 mx-auto mt-2">
+      Enviar Mensaje
+    </button>
+  </form>
+</section>
+
 
     <!-- Modal Global de Video (Único para toda la web) -->
 <div id="modalGlobal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/80 backdrop-blur-sm transition-opacity">
